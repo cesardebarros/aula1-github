@@ -7,6 +7,7 @@ public class Media_Alturas {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Calcula a media das alturas");
 		System.out.print("Digite a quantidade de pessoas: ");
 		int n = sc.nextInt();
 		double[] vect = new double[n];
